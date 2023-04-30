@@ -96,8 +96,16 @@ main(){
    - ✔️ Copy `libbgi.a` from `downloaded Graphics folder` to `C:\TDM-GCC-32\lib`.
 
 8. Add the appropriate linkers
+
    - 🟢 The click on `settings` from the main ribbon, then choose `Compiler...`
    - 🟢 Then click on `Toolchain executables` in the tab from the dialog and choose the new 32-bit gcc compiler as shown below:
-![image](https://user-images.githubusercontent.com/46064269/235359032-609b2a98-a400-484a-b2f1-bc8649631bcc.png)
-![image](https://user-images.githubusercontent.com/46064269/235359117-71d61c96-aca8-4569-84c1-3297b98764f4.png)
+     ![image](https://user-images.githubusercontent.com/46064269/235359032-609b2a98-a400-484a-b2f1-bc8649631bcc.png)
 
+   - 🟢 Then click on `Linker settings` and add the following linker tags under `Other linker options` and then hit `save` as shown below:
+     ![image](https://user-images.githubusercontent.com/46064269/235359117-71d61c96-aca8-4569-84c1-3297b98764f4.png)
+
+9. Create a new project
+
+   - Click on File -> New -> Project -> Console Application, then click on `Go`
+   - Click on `Next`, then choose `C++` and go on with the prompt.
+   - After writing a program, click on `compile and run`
