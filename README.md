@@ -48,23 +48,25 @@
 
 1. Download `codeblocks-20.03mingw-setup` (64 bit) from [here](http://www.codeblocks.org/downloads/binaries/).
 2. Just install `codeblocks setup`.
-3. As we've 64-bit version, we've to set up 32-bit GCC. Because `graphics.h` is 32-bit.
+3. As we've 64-bit version, we've to set up 32-bit GCC. Because our graphics library(`graphics.h`) is compatible with 32-bit.
+4. Before moving on, to find the gcc version, Please do the below steps: -> **This step is optional**
 
+   - 🟢 Cpp code to find the `gcc` version
 
-![image](https://user-images.githubusercontent.com/46064269/235356623-eb28def5-0c21-461f-830d-0b909af978f9.png)
-![image](https://user-images.githubusercontent.com/46064269/235356772-606239b4-5b2d-451b-b038-1c7e5a4beb25.png)
+   ```cpp
+     #include<stdlib.h>
 
+     // c++ program to know the gcc version
+     int main() {
+       system("gcc -v");
+       return 0;
+     }
+   ```
 
-```cpp
-#include<stdlib.h>
+   - 🟢 The click on `settings` from the main ribbon, then choose `Compiler...`
+   - 🟢 Then click on `Linker settings` in the tab from the dialog & remove all the linkers as shown below:
+     ![image](https://user-images.githubusercontent.com/46064269/235356623-eb28def5-0c21-461f-830d-0b909af978f9.png)
 
-// c++ program to know the gcc version
-int main() {
-  system("gcc -v");
-  return 0;
-}
-```
-
-```
-
-```
+   - 🟢 Then click on `Build` from the main ribbon, then choose `Build and Run` or press `F9` to compile & run.
+   - 🟢 You can see the below output
+     ![image](https://user-images.githubusercontent.com/46064269/235356772-606239b4-5b2d-451b-b038-1c7e5a4beb25.png)
