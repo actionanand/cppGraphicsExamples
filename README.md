@@ -188,6 +188,6 @@ main(){
       ./main
     ```
 
-9. Video reference:
+9.  Video reference:
 
     - [How to setup graphics.h in VS Code | CodeWar - YouTube](https://www.youtube.com/watch?v=J0_vt-7Ok6U)

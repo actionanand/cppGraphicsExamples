@@ -3,30 +3,30 @@
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs":"active",
+  "editor.guides.bracketPairs": "active",
   "editor.fontSize": 14,
   "files.watcherExclude": {
-      "**/.cache/**": true,
-      "**/.git/**": true,
-      "**/node_modules/**": true
+    "**/.cache/**": true,
+    "**/.git/**": true,
+    "**/node_modules/**": true
   },
   "[cpp]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
-    "editor.detectIndentation":false,
-    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[c]": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
-    "editor.detectIndentation":false,
-    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
-    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "code-runner.executorMap": {
     "javascript": "node",

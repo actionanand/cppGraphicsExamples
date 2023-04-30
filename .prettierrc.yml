@@ -23,10 +23,6 @@ overrides:
       tabWidth: 2
   - files:
     - '*.c'
-    options:
-      tabWidth: 2
-      singleQuote: false
-  - files:
     - '*.cpp'
     options:
       tabWidth: 2
