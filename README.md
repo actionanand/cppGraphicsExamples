@@ -146,7 +146,7 @@ main(){
    - search for [c++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), and choose the extension from `Microsoft` and install it.
    - Install [code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) from extension
 
-6. Click `Ctr + Shift + P` and type `c++:ui` as shown below:
+6. Click on view -> command palette or `Ctr + Shift + P` and type `c++:ui` as shown below:
 
 ![image](https://user-images.githubusercontent.com/46064269/235362562-3d8cc040-8fbe-4d1e-807f-b8362925dfc0.png)
 
