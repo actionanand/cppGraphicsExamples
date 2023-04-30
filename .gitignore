@@ -34,3 +34,7 @@
 # Other Files
 *.win
 *.layout
+
+# Folders to exclude
+bin/
+obj/
