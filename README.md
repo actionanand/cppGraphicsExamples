@@ -145,6 +145,26 @@ main(){
 
    - search for [c++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), and choose the extension from `Microsoft` and install it.
    - Install [code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) from extension
+
+6. Click `Ctr + Shift + P` and type `c++:ui` as shown below:
+
 ![image](https://user-images.githubusercontent.com/46064269/235362562-3d8cc040-8fbe-4d1e-807f-b8362925dfc0.png)
-![image](https://user-images.githubusercontent.com/46064269/235363003-bcd87df8-36ab-44c2-99e2-f7ea1d21ed33.png)
-![image](https://user-images.githubusercontent.com/46064269/235363245-a585ae19-052c-43b8-a98e-5c68a41d4d2d.png)
+
+7.  Add the below configurations as shown in screenshot:
+
+        - Select a configuration set to edit: `win32`
+        - Compiler path: `C:/TDM-GCC-32/bin/g++.exe`
+        - Compiler arguments:
+        ```bash
+          -lbgi
+          -lgdi32
+          -lcomdlg32
+          -luuid
+          -loleaut32
+          -lole32
+        ```
+
+    ![image](https://user-images.githubusercontent.com/46064269/235363003-bcd87df8-36ab-44c2-99e2-f7ea1d21ed33.png)
+
+8.  Build the program: Click on Terminal -> Run Build Task or `Ctr + Shift + B`
+    ![image](https://user-images.githubusercontent.com/46064269/235363245-a585ae19-052c-43b8-a98e-5c68a41d4d2d.png)
