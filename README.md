@@ -36,7 +36,7 @@
    - then select `Console Graphics Application` under `basic` tab
    - then choose your desired name & hit `ok`.
    - prompt will open file explorer, save the `.dev` file where you want to save your project.
-     OR
+   - --- OR ---
    * Click on `File` icon -> source file or `ctr + N`
 8. To execute:
    - Click on `execute` in the main ribbon, then choose `Compile & Run` or press `F11`.
