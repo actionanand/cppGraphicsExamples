@@ -15,7 +15,6 @@
 *.so
 *.dylib
 *.dll
-*.win
 
 # Fortran module files
 *.mod
@@ -31,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Other Files
+*.win
+*.layout
