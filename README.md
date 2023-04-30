@@ -124,3 +124,11 @@ main(){
     return 0;
   }
 ```
+
+11. Video references:
+
+    - [How to setup graphics.h in CodeBlocks v20.03 | CodeWar - YouTube](https://www.youtube.com/watch?v=VEkAj-xVTKQ)
+    - [How to run graphics program in CodeBlocks v17.12 | Graphics in C++ | Study Read Educate - YouTube](https://www.youtube.com/watch?v=oFUUpC9Z--U)
+    - [How to setup graphics.h in CodeBlocks v17.12 | CodeWar - YouTube](https://www.youtube.com/watch?v=GM0kni4jdPY)
+
+## Instaructions for VS Code
