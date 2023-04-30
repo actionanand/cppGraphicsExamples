@@ -9,9 +9,9 @@
 3. Download Graphics Files For Dev C++ from [GDrive - without consoleAppGraphics template](https://drive.google.com/file/d/16xZBvFXf7yFjxwTpuyevK1KPuLgUeZFh/view) or [studyReadEducate](https://studyreadeducate.com/c-graphics-files-for-dev-c-and-codeblocks/) or [GDrive for studyReadEducate](https://drive.google.com/file/d/14BLoBy0PA_A7_gdgO6UWiLEzrMPr7Hua/view) and unzip.
 4. Copy the following files to appropriate Dev-cpp folders
 
-   - 🟢 This step is optional only: copy `6-ConsoleAppGraphics.template` and `ConsoleApp_cpp_graph.txt` from `Graphics in Dev C++` to `C:\Program Files (x86)\Dev-Cpp\Templates`.
-   - ✔️ Copy `graphics.h` and `winbgim.h` from `Graphics in Dev C++` to `C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\include`.
-   - ✔️ Copy `libbgi.a` from `Graphics in Dev C++` to `C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\lib`.
+   - 🟢 This step is optional only: copy `6-ConsoleAppGraphics.template` and `ConsoleApp_cpp_graph.txt` from `Graphics in Dev C++` to `C:\Program Files (x86)\Dev-Cpp\Templates\`.
+   - ✔️ Copy `graphics.h` and `winbgim.h` from `Graphics in Dev C++` to `C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\include\`.
+   - ✔️ Copy `libbgi.a` from `Graphics in Dev C++` to `C:\Program Files (x86)\Dev-Cpp\MinGW64\x86_64-w64-mingw32\lib\`.
 
 5. Choose 32-bit GCC compiler:
 
@@ -41,8 +41,25 @@
 8. To execute:
    - Click on `execute` in the main ribbon, then choose `Compile & Run` or press `F11`.
 9. Video references:
+
    - [How to setup graphics.h in Dev C++ | CodeWar - YouTube](https://www.youtube.com/watch?v=CHFyEnlMnxg)
    - [How to run graphics Program in dev C++ | Study Read Educate - YouTube](https://www.youtube.com/watch?v=TEMhWt9WwTA)
+
+10. Test program
+
+```cpp
+#include<graphics.h>
+
+main(){
+  initwindow(800, 800);
+  //  creating line
+  //  line(200, 210, 400, 410);
+
+  //  creating circle (x, y, radius)
+  circle(300, 300, 20);
+  getch();
+}
+```
 
 ## Instaructions for code blocks
 
@@ -70,3 +87,17 @@
    - 🟢 Then click on `Build` from the main ribbon, then choose `Build and Run` or press `F9` to compile & run.
    - 🟢 You can see the below output
      ![image](https://user-images.githubusercontent.com/46064269/235356772-606239b4-5b2d-451b-b038-1c7e5a4beb25.png)
+
+5. Download `32-bit compiler` from [here](https://jmeubank.github.io/tdm-gcc/) and install it.
+6. Download Graphics Files from [here](https://drive.google.com/file/d/16xZBvFXf7yFjxwTpuyevK1KPuLgUeZFh/view) and unzip it.
+7. Copy the following files form downloaded zip folder to the appropriate `TDM-GCC-32` folders
+
+   - ✔️ Copy `graphics.h` and `winbgim.h` from `downloaded Graphics folder` to `C:\TDM-GCC-32\include\`.
+   - ✔️ Copy `libbgi.a` from `downloaded Graphics folder` to `C:\TDM-GCC-32\lib`.
+
+8. Add the appropriate linkers
+   - 🟢 The click on `settings` from the main ribbon, then choose `Compiler...`
+   - 🟢 Then click on `Toolchain executables` in the tab from the dialog and choose the new 32-bit gcc compiler as shown below:
+![image](https://user-images.githubusercontent.com/46064269/235359032-609b2a98-a400-484a-b2f1-bc8649631bcc.png)
+![image](https://user-images.githubusercontent.com/46064269/235359117-71d61c96-aca8-4569-84c1-3297b98764f4.png)
+
