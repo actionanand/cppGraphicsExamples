@@ -14,7 +14,8 @@
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[c]": {
     "editor.tabSize": 2,
