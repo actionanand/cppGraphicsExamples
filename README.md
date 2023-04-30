@@ -19,6 +19,7 @@
 6. To execute:
    - Click on `execute` in the main ribbon, then choose `Compile & Run` or press `F11`.
 7. Trobleshooting, if not working:
+
    - click on the `dropdown` in the main ribbon, & select `TDM-GCC 4.9.2 32-bit release`. as shown in below image
 
    ![image](https://user-images.githubusercontent.com/46064269/235348914-50c6f85a-424c-4a81-8732-5e3f26a7b4f7.png)
