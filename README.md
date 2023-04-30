@@ -4,8 +4,8 @@
 
 ## Instaructions for dev-c++
 
-1. Download `Dev-cpp 5.11 TDM-GCC 4.9.2` from [sourceForge](https://sourceforge.net/projects/orwelldevcpp/)
-2. Install `Dev-cpp`
+1. Download `Dev-cpp 5.11 TDM-GCC 4.9.2` from [sourceForge](https://sourceforge.net/projects/orwelldevcpp/).
+2. Install `Dev-cpp`.
 3. Download Graphics Files For Dev C++ from [GDrive - without consoleAppGraphics template](https://drive.google.com/file/d/16xZBvFXf7yFjxwTpuyevK1KPuLgUeZFh/view) or [studyReadEducate](https://studyreadeducate.com/c-graphics-files-for-dev-c-and-codeblocks/) or [GDrive for studyReadEducate](https://drive.google.com/file/d/14BLoBy0PA_A7_gdgO6UWiLEzrMPr7Hua/view) and unzip.
 4. Copy the following files to appropriate Dev-cpp folders
 
@@ -43,3 +43,28 @@
 9. Video references:
    - [How to setup graphics.h in Dev C++ | CodeWar - YouTube](https://www.youtube.com/watch?v=CHFyEnlMnxg)
    - [How to run graphics Program in dev C++ | Study Read Educate - YouTube](https://www.youtube.com/watch?v=TEMhWt9WwTA)
+
+## Instaructions for code blocks
+
+1. Download `codeblocks-20.03mingw-setup` (64 bit) from [here](http://www.codeblocks.org/downloads/binaries/).
+2. Just install `codeblocks setup`.
+3. As we've 64-bit version, we've to set up 32-bit GCC. Because `graphics.h` is 32-bit.
+
+
+![image](https://user-images.githubusercontent.com/46064269/235356623-eb28def5-0c21-461f-830d-0b909af978f9.png)
+![image](https://user-images.githubusercontent.com/46064269/235356772-606239b4-5b2d-451b-b038-1c7e5a4beb25.png)
+
+
+```cpp
+#include<stdlib.h>
+
+// c++ program to know the gcc version
+int main() {
+  system("gcc -v");
+  return 0;
+}
+```
+
+```
+
+```
