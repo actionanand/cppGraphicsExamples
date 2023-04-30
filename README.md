@@ -23,3 +23,9 @@
    - click on the `dropdown` in the main ribbon, & select `TDM-GCC 4.9.2 32-bit release`. as shown in below image
 
    ![image](https://user-images.githubusercontent.com/46064269/235348914-50c6f85a-424c-4a81-8732-5e3f26a7b4f7.png)
+   
+
+8. jj
+
+![image](https://user-images.githubusercontent.com/46064269/235352378-34e095f0-982f-4733-9bd7-e45bdd9f0c13.png)
+
