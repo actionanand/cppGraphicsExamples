@@ -132,3 +132,19 @@ main(){
     - [How to setup graphics.h in CodeBlocks v17.12 | CodeWar - YouTube](https://www.youtube.com/watch?v=GM0kni4jdPY)
 
 ## Instaructions for VS Code
+
+1. Download VS Code and Install it
+2. Download `32-bit compiler` from [here](https://jmeubank.github.io/tdm-gcc/) and install it.
+3. Download Graphics Files from [here](https://drive.google.com/file/d/16xZBvFXf7yFjxwTpuyevK1KPuLgUeZFh/view) and unzip it.
+4. Copy the following files form downloaded zip folder to the appropriate `TDM-GCC-32` folders
+
+   - ✔️ Copy `graphics.h` and `winbgim.h` from `downloaded Graphics folder` to `C:\TDM-GCC-32\include\`.
+   - ✔️ Copy `libbgi.a` from `downloaded Graphics folder` to `C:\TDM-GCC-32\lib`.
+
+5. Go to extensions search bar,
+
+   - search for [c++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools), and choose the extension from `Microsoft` and install it.
+   - Install [code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) from extension
+![image](https://user-images.githubusercontent.com/46064269/235362562-3d8cc040-8fbe-4d1e-807f-b8362925dfc0.png)
+![image](https://user-images.githubusercontent.com/46064269/235363003-bcd87df8-36ab-44c2-99e2-f7ea1d21ed33.png)
+![image](https://user-images.githubusercontent.com/46064269/235363245-a585ae19-052c-43b8-a98e-5c68a41d4d2d.png)
