@@ -109,3 +109,18 @@ main(){
    - Click on File -> New -> Project -> Console Application, then click on `Go`
    - Click on `Next`, then choose `C++` and go on with the prompt.
    - After writing a program, click on `compile and run`
+
+10. Test program
+
+```cpp
+  #include <graphics.h>
+
+  int main(){
+    int gd=DETECT, gm;
+    initgraph(&gd, &gm, (char*)"");
+    circle(320, 240, 200);
+    getch();
+    closegraph();
+    return 0;
+  }
+```
