@@ -37,7 +37,13 @@ The first and last control points are always the end points of the curve; howeve
 ## Output
 
 ```bash
-
+	Enter number of control points: 6
+	Enter 6 Points: 30 60
+	70 80
+	90 30
+	100 130
+	50 40
+	120 140
 ```
 
 <!-- ![step1](https://github.com/actionanand/cppGraphicsExamples/blob/main/assets/img/bezier.PNG) -->
