@@ -46,4 +46,7 @@ Step 4 : 	Repeat step 1 for other lines
 ```
 
 <!-- ![step1](https://github.com/actionanand/cppGraphicsExamples/blob/main/assets/img/CohenSutherland.PNG) -->
-![step1](https://raw.githubusercontent.com/actionanand/cppGraphicsExamples/main/assets/img/CohenSutherland.PNG)
+<!-- ![step1](https://raw.githubusercontent.com/actionanand/cppGraphicsExamples/main/assets/img/CohenSutherland.PNG) -->
+![CohenSutherland](https://user-images.githubusercontent.com/46064269/235466318-a03145aa-60e1-47d4-a214-5e7c7eb22da6.PNG)
+
+
