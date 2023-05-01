@@ -22,9 +22,10 @@ BGI was less powerful than modern graphics libraries such as SDL or OpenGL, sinc
 5. Choose 32-bit GCC compiler:
 
    - ⚠️ Click on the `dropdown` in the main ribbon, & select `TDM-GCC 4.9.2 32-bit release`. as shown in below image
-
+\
+\
    ![image](https://user-images.githubusercontent.com/46064269/235348914-50c6f85a-424c-4a81-8732-5e3f26a7b4f7.png)
-
+\
 6. Choose compiler & add linkers as shown below:
 
    - ⚠️ Click on `Tools` and choose `Compiler and Options`
@@ -34,9 +35,9 @@ BGI was less powerful than modern graphics libraries such as SDL or OpenGL, sinc
    ```bash
      -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
    ```
-
+\
    ![image](https://user-images.githubusercontent.com/46064269/235352378-34e095f0-982f-4733-9bd7-e45bdd9f0c13.png)
-
+\
 7. To create a new project:
    - File -> New -> Project
    - then select `Console Graphics Application` under `basic` tab
@@ -91,10 +92,14 @@ main(){
 
    - 🟢 The click on `settings` from the main ribbon, then choose `Compiler...`
    - 🟢 Then click on `Linker settings` in the tab from the dialog & remove all the linkers as shown below:
+\
+\
      ![image](https://user-images.githubusercontent.com/46064269/235356623-eb28def5-0c21-461f-830d-0b909af978f9.png)
 
    - 🟢 Then click on `Build` from the main ribbon, then choose `Build and Run` or press `F9` to compile & run.
    - 🟢 You can see the below output
+\
+\
      ![image](https://user-images.githubusercontent.com/46064269/235356772-606239b4-5b2d-451b-b038-1c7e5a4beb25.png)
 
 5. Download `32-bit compiler` from [here](https://jmeubank.github.io/tdm-gcc/) and install it.
@@ -108,9 +113,13 @@ main(){
 
    - 🟢 The click on `settings` from the main ribbon, then choose `Compiler...`
    - 🟢 Then click on `Toolchain executables` in the tab from the dialog and choose the new 32-bit gcc compiler as shown below:
+\
+\
      ![image](https://user-images.githubusercontent.com/46064269/235359032-609b2a98-a400-484a-b2f1-bc8649631bcc.png)
 
    - 🟢 Then click on `Linker settings` and add the following linker tags under `Other linker options` and then hit `save` as shown below:
+\
+\
      ![image](https://user-images.githubusercontent.com/46064269/235359117-71d61c96-aca8-4569-84c1-3297b98764f4.png)
 
 9. Create a new project
@@ -158,7 +167,8 @@ main(){
    - Install [code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) from extension
 
 6. Click on view -> command palette or `Ctr + Shift + P` and type `c++:ui` as shown below:
-
+\
+\
 ![image](https://user-images.githubusercontent.com/46064269/235362562-3d8cc040-8fbe-4d1e-807f-b8362925dfc0.png)
 
 7.  Add the below configurations as shown in screenshot:
@@ -175,10 +185,12 @@ main(){
       -loleaut32
       -lole32
     ```
-
+\
     ![image](https://user-images.githubusercontent.com/46064269/235363003-bcd87df8-36ab-44c2-99e2-f7ea1d21ed33.png)
 
 8.  Build the program: Click on Terminal -> Run Build Task or `Ctr + Shift + B`
+\
+\
     ![image](https://user-images.githubusercontent.com/46064269/235363245-a585ae19-052c-43b8-a98e-5c68a41d4d2d.png)
 
     - You'll see the following success info.
