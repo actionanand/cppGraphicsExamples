@@ -10,3 +10,4 @@ It's taken from [Computer-Graphics, SagarGaniga GitHub](https://github.com/Sagar
 
 ## Output
 
+![swimming_fish](https://user-images.githubusercontent.com/46064269/235481549-28c5bc7c-9392-4a8f-b1bf-60d873476faf.gif)
