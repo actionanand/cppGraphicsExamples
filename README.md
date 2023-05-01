@@ -134,7 +134,9 @@ main(){
   }
 ```
 
-11. Video references:
+11. Changing indentation: settings -> Editor
+
+12. Video references:
 
     - [How to setup graphics.h in CodeBlocks v20.03 | CodeWar - YouTube](https://www.youtube.com/watch?v=VEkAj-xVTKQ)
     - [How to run graphics program in CodeBlocks v17.12 | Graphics in C++ | Study Read Educate - YouTube](https://www.youtube.com/watch?v=oFUUpC9Z--U)
@@ -220,3 +222,5 @@ int main(int argc, char const *argv[])
 ## Other Resources
 
 1. [Guide to setup 'graphics.h' - github](https://github.com/SagarGaniga/Graphics-Library)
+2. [Guide to setup BGI - github](https://github.com/rafiulgits/BGI-Projects)
+3. [Practical examples to BGI](https://github.com/SagarGaniga/computer-graphics)
