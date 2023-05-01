@@ -1,6 +1,12 @@
 # C++ : Graphics Examples
 
-> practising C++ graphics (turbo c++) using `graphics.h` file.
+It(graphics.h) is called BGI(Borland Graphics Interface).It is an olden 32-bit real-mode DOS library, included with Borland's Turbo C and C++ products. And basically graphics.h, conio.h can be inferred as windows headerfiles. So It'll run only one windows.
+
+The last [Borland's C++](https://en.wikipedia.org/wiki/Borland_Graphics_Interface) IDE for DOS is Borland C++ 3.1 (1992). The last C++ environment which supports BGI is Borland C++ 5.02 (1997), which works under Windows but can compile DOS programs. BGI was accessible in C/C++ with graphics.lib / graphics.h, and in Pascal via the graph unit.
+
+BGI was less powerful than modern graphics libraries such as SDL or OpenGL, since it was designed for 2D presentation graphics instead of event-based 3D applications. However, it has been considered simpler to code. BGI and Turbo C++, although obsolete, are still widely used in education in India.
+
+> This repo is for practising C++ graphics (turbo c++) using `graphics.h` file.
 
 ## Instaructions for dev-c++
 
@@ -64,6 +70,9 @@ main(){
 ## Instaructions for code blocks
 
 1. Download `codeblocks-20.03mingw-setup` (64 bit) from [here](http://www.codeblocks.org/downloads/binaries/).
+
+   - [🟡v20.03 mingw 64-bit](https://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/codeblocks-20.03mingw-setup.exe), [🟡v20.03 mingw 32-bit](https://sourceforge.net/projects/codeblocks/files/Binaries/20.03/Windows/codeblocks-20.03mingw-32bit-setup.exe), [🟡v17.12 mingw](https://sourceforge.net/projects/codeblocks/files/Binaries/17.12/Windows/codeblocks-17.12mingw-setup.exe/download), [🟡v16.01 mingw](http://sourceforge.net/projects/codeblocks/files/Binaries/16.01/Windows/codeblocks-16.01mingw-setup.exe)
+
 2. Just install `codeblocks setup`.
 3. As we've 64-bit version, we've to set up 32-bit GCC. Because our graphics library(`graphics.h`) is compatible with 32-bit.
 4. Before moving on, to find the gcc version, Please do the below steps: -> **This step is optional**
@@ -206,5 +215,8 @@ int main(int argc, char const *argv[])
   closegraph();
   return 0;
 }
-
 ```
+
+## Other Resources
+
+1. [Guide to setup 'graphics.h' - github](https://github.com/SagarGaniga/Graphics-Library)
