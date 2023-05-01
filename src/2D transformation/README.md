@@ -61,4 +61,5 @@ It's taken from [Computer-Graphics, SagarGaniga GitHub](https://github.com/Sagar
   Enter the points(x & y) to scale about:
 ```
 
-![step1](https://github.com/actionanand/cppGraphicsExamples/blob/master/assets/img/2d_transformation.png)
+<!-- ![step1](https://github.com/actionanand/cppGraphicsExamples/blob/main/assets/img/2d_transformation.PNG) -->
+![step1](https://raw.githubusercontent.com/actionanand/cppGraphicsExamples/main/assets/img/2d_transformation.PNG)
