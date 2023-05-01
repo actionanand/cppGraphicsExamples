@@ -12,3 +12,4 @@ It's taken from [Computer-Graphics, SagarGaniga GitHub](https://github.com/Sagar
 
 ## Output
 
+![image](https://user-images.githubusercontent.com/46064269/235480609-ce67d8a9-6632-4d93-88b2-1a2024b91015.png)
