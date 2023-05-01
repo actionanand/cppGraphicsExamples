@@ -39,4 +39,11 @@ Step 4 : 	Repeat step 1 for other lines
 
 ## Output
 
+```bash
+	Press 1 to clip!
+	1
+	Line accepted from 10, 11 to 181.818, 200
+```
 
+<!-- ![step1](https://github.com/actionanand/cppGraphicsExamples/blob/main/assets/img/CohenSutherland.PNG) -->
+![step1](https://raw.githubusercontent.com/actionanand/cppGraphicsExamples/main/assets/img/CohenSutherland.PNG)
