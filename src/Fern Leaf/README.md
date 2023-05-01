@@ -31,4 +31,5 @@ It's taken from [Computer-Graphics, SagarGaniga GitHub](https://github.com/Sagar
 ## Output
 
 ![image](https://user-images.githubusercontent.com/46064269/235468549-121cd07c-8984-469c-9f5d-cb4f0e133a4e.png)
+<br/>
 ![ferm](https://user-images.githubusercontent.com/46064269/235468598-4d728483-071a-480c-884c-5da9ac146129.gif)
