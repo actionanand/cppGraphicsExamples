@@ -46,5 +46,7 @@ The first and last control points are always the end points of the curve; howeve
 	120 140
 ```
 
+![bezier](https://user-images.githubusercontent.com/46064269/235465912-ad9d4c02-bfee-4d31-8e16-d79056337d89.PNG)
+
 <!-- ![step1](https://github.com/actionanand/cppGraphicsExamples/blob/main/assets/img/bezier.PNG) -->
-![step1](https://raw.githubusercontent.com/actionanand/cppGraphicsExamples/main/assets/img/bezier.PNG)
+<!-- ![step1](https://raw.githubusercontent.com/actionanand/cppGraphicsExamples/main/assets/img/bezier.PNG) -->
