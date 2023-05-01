@@ -30,3 +30,5 @@ For any given pixel (x, y), the next pixel to be plotted is either (x, y+1) or (
 
 ## Output
 
+![image](https://user-images.githubusercontent.com/46064269/235476032-3f1cc957-09b0-4bab-a644-400d82813970.png)
+
