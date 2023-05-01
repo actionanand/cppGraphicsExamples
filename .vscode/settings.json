@@ -14,8 +14,8 @@
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
-    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
-    // "editor.defaultFormatter": "ms-vscode.cpptools"
+    // "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    "editor.defaultFormatter": "ms-vscode.cpptools"
     // "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[c]": {
