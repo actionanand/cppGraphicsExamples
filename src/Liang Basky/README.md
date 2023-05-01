@@ -65,4 +65,12 @@ It's taken from [Computer-Graphics, SagarGaniga GitHub](https://github.com/Sagar
 
 ## Output
 
-
+```bash
+Enter the lower co-ordinates of window : 10 10
+Enter the upper co-ordinates of window : 500 500
+Enter x1 and y1 : 30 35
+Enter x2 and y2 : 350 400
+Press any key to continue . . .
+```
+\
+![image](https://user-images.githubusercontent.com/46064269/235473454-ec3f7226-3d82-4a55-a1dd-3dcefeaa5cad.png)
