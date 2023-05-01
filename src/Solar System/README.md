@@ -13,3 +13,5 @@ It's taken from [Computer-Graphics, SagarGaniga GitHub](https://github.com/Sagar
 
 ## Output
 
+<!-- output of `SolarSystem.cpp` -->
+![solar_system](https://user-images.githubusercontent.com/46064269/235479849-b363ed70-49ea-4603-90a8-74e024049a53.gif)
