@@ -37,3 +37,5 @@ It's taken from [Computer-Graphics, SagarGaniga GitHub](https://github.com/Sagar
 
 ## Output
 
+![image](https://user-images.githubusercontent.com/46064269/235472440-dc40b9b6-848a-4892-8237-e4c3d12ff5d7.png)
+
