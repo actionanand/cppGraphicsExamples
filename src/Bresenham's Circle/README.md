@@ -27,4 +27,6 @@ Now for each pixel, we will do the following operations:
 ## Output
 
 <!-- ![step1](https://github.com/actionanand/cppGraphicsExamples/blob/main/assets/gif/bresenhams-circle.gif) -->
-![step1](https://raw.githubusercontent.com/actionanand/cppGraphicsExamples/main/assets/gif/bresenhams-circle.gif)
+<!-- ![step1](https://raw.githubusercontent.com/actionanand/cppGraphicsExamples/main/assets/gif/bresenhams-circle.gif) -->
+![bresenhams-circle](https://user-images.githubusercontent.com/46064269/235466091-a5791bf7-cf4d-4d6e-9e1f-c7d1d3459057.gif)
+
