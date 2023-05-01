@@ -24,5 +24,7 @@ Now for each pixel, we will do the following operations:
 7. Else, set d = d + 4 * (x – y) + 10 and decrement y by 1.
 8. call drawCircle(int xc, int yc, int x, int y) function
 
+## Output
+
 <!-- ![step1](https://github.com/actionanand/cppGraphicsExamples/blob/main/assets/gif/bresenhams-circle.gif) -->
 ![step1](https://raw.githubusercontent.com/actionanand/cppGraphicsExamples/main/assets/gif/bresenhams-circle.gif)
