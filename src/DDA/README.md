@@ -31,4 +31,5 @@ It's taken from [Computer-Graphics, SagarGaniga GitHub](https://github.com/Sagar
 
 ## Output
 
+![2d_transformation](https://user-images.githubusercontent.com/46064269/235465746-1db87d5a-1ed3-474e-9ef3-681ecdbdb478.PNG)
 
