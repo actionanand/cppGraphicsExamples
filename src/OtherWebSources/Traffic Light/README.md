@@ -1,5 +1,6 @@
 # Traffic Light
 
+[Make Traffic Light Simulation - C Language Programming](https://developerinsider.co/make-traffic-light-simulation-c-language-programming/)
 
 ## Output
 
