@@ -11,4 +11,7 @@ we move across the x-axis in unit intervals.
 2. In other words, from any position (Xk, Yk) we need to choose between (Xk + 1, Yk) and (Xk + 1, Yk + 1).
 3. We would like to pick the y value (among Yk + 1 and Yk) corresponding to a point that is closer to the original line.
 
+## Output
 
+<!-- ![step1](https://github.com/actionanand/cppGraphicsExamples/blob/main/assets/img/2d_transformation.PNG) -->
+![step1](https://raw.githubusercontent.com/actionanand/cppGraphicsExamples/main/assets/img/2d_transformation.PNG)
