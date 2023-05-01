@@ -177,7 +177,7 @@ int main()
   do
   {
     int x, y;
-    printf("Enter the points(x & y) to scale about:");
+    printf("Enter the points(x & y) to scale about : ");
     scanf("%d%d", &x, &y);
     fflush(stdin);
 

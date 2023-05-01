@@ -50,4 +50,15 @@ It's taken from [Computer-Graphics, SagarGaniga GitHub](https://github.com/Sagar
 
 ## Output
 
+```bash
+  Enter the points(x & y) to scale about : 1 1
+
+
+  Enter Scaling units in X-direction : 1.3
+
+
+  Enter Scaling units in Y-direction : 0.5
+  Enter the points(x & y) to scale about:
+```
+
 ![step1](https://github.com/actionanand/cppGraphicsExamples/blob/master/assets/img/2d_transformation.png)
