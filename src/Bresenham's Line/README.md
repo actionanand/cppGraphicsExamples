@@ -14,4 +14,5 @@ we move across the x-axis in unit intervals.
 ## Output
 
 <!-- ![step1](https://github.com/actionanand/cppGraphicsExamples/blob/main/assets/img/2d_transformation.PNG) -->
-![step1](https://raw.githubusercontent.com/actionanand/cppGraphicsExamples/main/assets/img/2d_transformation.PNG)
+<!-- ![step1](https://raw.githubusercontent.com/actionanand/cppGraphicsExamples/main/assets/img/2d_transformation.PNG) -->
+![2d_transformation](https://user-images.githubusercontent.com/46064269/235465746-1db87d5a-1ed3-474e-9ef3-681ecdbdb478.PNG)
