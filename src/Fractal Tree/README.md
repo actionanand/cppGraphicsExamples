@@ -31,3 +31,10 @@ Call drawTree with
 	5. new angle of tree
 	6. reduced recursion level
 4. Call RHS and LHS recursion
+
+## Output
+
+![image](https://user-images.githubusercontent.com/46064269/235471601-88b5db74-142f-4095-a02a-941195231d83.png)
+![fractalTree](https://user-images.githubusercontent.com/46064269/235471641-be2adbf1-8231-41eb-8c7f-5454943e00d4.gif)
+
+
