@@ -17,4 +17,4 @@ Here is a C graphics program to draw a hut and color it using graphics.h header 
 
 ## Output
 
-
+![image](https://user-images.githubusercontent.com/46064269/235711018-3af75a9c-79d5-437a-aaec-988b5e29c9e0.png)
