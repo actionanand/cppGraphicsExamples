@@ -41,6 +41,7 @@ Here is a C program to draw [3D bar chart](https://www.techcrashcourse.com/2015/
 
 1. Bar Chart
 \
+![image](https://user-images.githubusercontent.com/46064269/235774584-a42977d7-7f0d-442c-a5cb-1608ab9541d6.png)
 
 2. 3D Bar Chart
 \
