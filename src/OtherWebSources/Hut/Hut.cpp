@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include <graphics.h>
+#include <dos.h>
 
 int main()
 {
@@ -24,6 +26,7 @@ int main()
   setfillstyle(HATCH_FILL, GREEN);
   floodfill(200, 105, WHITE);
   floodfill(210, 105, WHITE);
+  getch();
   closegraph();
   return 0;
 }
