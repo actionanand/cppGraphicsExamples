@@ -2,8 +2,8 @@
 
 ## Index
 
-1. [Bar Chart](barChart)
-2. [Bar Chart 3D](barChart3d)
+1. [Bar Chart](#barChart)
+2. [Bar Chart 3D](#barChart3d)
 
 ## Bar Chart {#barChart}
 
