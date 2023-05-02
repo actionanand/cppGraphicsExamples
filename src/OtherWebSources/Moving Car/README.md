@@ -5,7 +5,7 @@
 Here is a C graphics program for moving car animation using graphics.h header file. In this program, we will first draw a car and color it. In every iteration of for loop we keep on increasing the x coordinates of every point of car to make it look like this car is moving from left to right. We will use below mentioned graphics functions in this program.
 
 | **Function** | **Description**                                                                                                                                                                                          |
-|:------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|:------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | initgraph    | It initializes the graphics system by loading the passed graphics driver then changing the system into graphics mode.                                                                                     |
 | getmaxx      | It returns the maximum X coordinate in current graphics mode and driver.                                                                                                                                  |
 | getmaxy      | It returns the maximum X coordinate in current graphics mode and driver.                                                                                                                                  |
