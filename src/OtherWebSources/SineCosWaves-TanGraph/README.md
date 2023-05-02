@@ -15,13 +15,13 @@ In this program, we first initialize graphics mode, by passing graphics driver(D
 ## Output
 
 1. Sine wave
-/
+<br>
   ![sineWave](https://user-images.githubusercontent.com/46064269/235764750-10273249-8d6e-41e2-8a29-1c9fa15e925c.gif)
 
 2. Cosine wave
-/
+<br>
    ![cosineWave](https://user-images.githubusercontent.com/46064269/235764793-0ca68899-432b-4cfe-b8d8-ef103b2b1ea5.gif)
 
 3. Tan graph
-/
+<br>
    ![tanGraph](https://user-images.githubusercontent.com/46064269/235764817-866ec678-793a-4549-96b4-1dd0d33fe365.gif)
