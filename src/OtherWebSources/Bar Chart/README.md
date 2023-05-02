@@ -45,4 +45,4 @@ Here is a C program to draw [3D bar chart](https://www.techcrashcourse.com/2015/
 
 2. 3D Bar Chart
 \
-
+![image](https://user-images.githubusercontent.com/46064269/235775054-5fe371b6-e7d8-4015-82c9-35f686bba4d9.png)
