@@ -21,5 +21,5 @@ Here is a C graphics program to draw pie chart using graphics.h header file. In 
 
 ## Output
 
-
+![image](https://user-images.githubusercontent.com/46064269/235747996-94f246ca-b2aa-47eb-9830-48a3a9cc4695.png)
 
