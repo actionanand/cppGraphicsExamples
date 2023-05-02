@@ -1,6 +1,6 @@
 # C++ : Graphics Examples
 
-It(graphics.h) is called BGI(Borland Graphics Interface).It is an olden 32-bit real-mode DOS library, included with Borland's Turbo C and C++ products. And basically graphics.h, conio.h can be inferred as windows headerfiles. So It'll run only one windows.
+It(==graphics.h==) is called ==BGI==(Borland Graphics Interface).It is an olden 32-bit real-mode DOS library, included with ==Borland's Turbo C and C++ products==. And basically graphics.h, conio.h can be inferred as windows headerfiles. So It'll ==run only one windows==.
 
 The last [Borland's C++](https://en.wikipedia.org/wiki/Borland_Graphics_Interface) IDE for DOS is Borland C++ 3.1 (1992). The last C++ environment which supports BGI is Borland C++ 5.02 (1997), which works under Windows but can compile DOS programs. BGI was accessible in C/C++ with graphics.lib / graphics.h, and in Pascal via the graph unit.
 
@@ -8,7 +8,15 @@ BGI was less powerful than modern graphics libraries such as SDL or OpenGL, sinc
 
 > This repo is for practising C++ graphics (turbo c++) using `graphics.h` file.
 
-## Instaructions for dev-c++
+## Index {#index}
+
+1. [How to run BGI in dev c++ IDE](#devCpp)
+2. [How to run BGI in CodeBlocks IDE](#codeBlocksCpp)
+3. [How to run BGI in VS Code](#vsCodeCpp)
+4. [Other web resources](#otherRef)
+5. [Small guide on c++ graphics](#cppGraphics)
+
+## Instaructions for dev-c++ {#devCpp}
 
 1. Download `Dev-cpp 5.11 TDM-GCC 4.9.2` from [sourceForge](https://sourceforge.net/projects/orwelldevcpp/).
 2. Install `Dev-cpp`.
@@ -67,8 +75,9 @@ main(){
   getch();
 }
 ```
-
-## Instaructions for code blocks
+\
+[🔝](#index)
+## Instaructions for code blocks {#codeBlocksCpp}
 
 1. Download `codeblocks-20.03mingw-setup` (64 bit) from [here](http://www.codeblocks.org/downloads/binaries/).
 
@@ -150,8 +159,10 @@ main(){
     - [How to setup graphics.h in CodeBlocks v20.03 | CodeWar - YouTube](https://www.youtube.com/watch?v=VEkAj-xVTKQ)
     - [How to run graphics program in CodeBlocks v17.12 | Graphics in C++ | Study Read Educate - YouTube](https://www.youtube.com/watch?v=oFUUpC9Z--U)
     - [How to setup graphics.h in CodeBlocks v17.12 | CodeWar - YouTube](https://www.youtube.com/watch?v=GM0kni4jdPY)
+\
+[🔝](#index)
 
-## Instaructions for VS Code
+## Instaructions for VS Code {#vsCodeCpp}
 
 1. Download VS Code and Install it
 2. Download `32-bit compiler` from [here](https://jmeubank.github.io/tdm-gcc/) and install it.
@@ -218,22 +229,86 @@ main(){
 10. Programming example:
 
 ```cpp
-#include <graphics.h>
+  #include <graphics.h>
 
-int main(int argc, char const *argv[])
-{
-  int gd = DETECT, gm;
-  initgraph(&gd, &gm, (char *)"");
-  circle(320, 240, 200);
-  getch();
-  closegraph();
-  return 0;
-}
+  int main(int argc, char const *argv[])
+  {
+    int gd = DETECT, gm;
+    initgraph(&gd, &gm, (char *)"");
+    circle(320, 240, 200);
+    getch();
+    closegraph();
+    return 0;
+  }
 ```
+\
+[🔝](#index)
 
-## Other Resources
+## Other Resources {#otherRef}
 
 1. [Guide to setup 'graphics.h' - github](https://github.com/SagarGaniga/Graphics-Library)
 2. [Guide to setup BGI - github](https://github.com/rafiulgits/BGI-Projects)
 3. [Practical examples to BGI](https://github.com/SagarGaniga/computer-graphics)
 4. [Graphics (graphics.h) - C Programming tutorial site](https://developerinsider.co/graphics-graphics-h-c-programming/)
+
+\
+[🔝](#index)
+
+## Short Guide on c++ Graphics {#cppGraphics}
+
+- The below content was taken from [here](https://developerinsider.co/graphics-graphics-h-c-programming/)
+
+```cpp
+  #include<graphics.h>
+  #include<stdio.h>
+  #include<conio.h>
+
+  void main(void) {
+    int gdriver = DETECT, gmode;
+    int x1 = 200, y1 = 200;
+    int x2 = 300, y2 = 300;
+    clrscr();
+    
+    initgraph(&gdriver, &gmode, "c:\\turboc3\\bgi");
+    line(x1, y1, x2, y2);
+    getch();
+    closegraph();
+  }
+```
+
+1. Include `graphics.h` header file.
+2. Initialize the graphics drivers on the computer using `initgraph`.
+
+    ```cpp
+      void initgraph(int *graphicsDriver, int *graphicsMode, char *driverDirectoryPath);
+    ```
+    - **graphicsDriver** : It is a pointer to an integer specifying the graphics driver to be used. It tells the compiler that what graphics driver to use or to automatically detect the drive. In all our programs we will use `DETECT` macro of graphics.h library that instruct compiler for auto detection of graphics driver.
+    - **graphicsMode** : It is a pointer to an integer that specifies the graphics mode to be used. If `*gdriver` is set to `DETECT`, then `initgraph` sets `*gmode` to the highest resolution available for the detected driver.
+    - **driverDirectoryPath** : It specifies the directory path where graphics driver files (`BGI files`) are located. If directory path is not provided, then it will search for driver files in current working directory directory. In all our sample graphics programs, you have to change path of BGI directory accordingly where you Turbo C++ compiler is installed.
+
+3. At the end of our graphics program, we have to unloads the graphics drivers and sets the screen back to text mode by calling closegraph function.
+
+4. Colors in C Graphics Programming
+
+    | **COLOR MACRO** | **INTEGER VALUE**  |
+    |:--------------- |:------------------:|
+    | BLACK           | 0                  |
+    | BLUE            | 1                  |
+    | GREEN           | 2                  |
+    | CYAN            | 3                  |
+    | RED             | 4                  |
+    | MAGENTA         | 5                  |
+    | BROWN           | 6                  |
+    | LIGHTGRAY       | 7                  |
+    | DARKGRAY        | 8                  |
+    | LIGHTBLUE       | 9                  |
+    | LIGHTGREEN      | 10                 |
+    | LIGHTCYAN       | 11                 |
+    | LIGHTRED        | 12                 |
+    | LIGHTMAGENTA    | 13                 |
+    | YELLOW          | 14                 |
+    | WHITE           | 15                 |
+
+
+\
+[🔝](#index)
