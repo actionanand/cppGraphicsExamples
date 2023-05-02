@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include <graphics.h>
+#include <dos.h>
 
 int main()
 {
@@ -24,10 +26,11 @@ int main()
   pieslice(x, y, 160, 220, 120);
   outtextxy(x - 250, y, "ELECTRICITY");
 
-  setfillstyle(SOLID_FILL, BROWN);
+  setfillstyle(SOLID_FILL, LIGHTCYAN);
   pieslice(x, y, 220, 360, 120);
   outtextxy(x, y + 150, "SAVINGS");
 
+  getch();
   closegraph();
   return 0;
 }
