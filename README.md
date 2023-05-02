@@ -44,7 +44,7 @@ BGI was less powerful than modern graphics libraries such as SDL or OpenGL, sinc
      -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
    ```
 \
-   ![image](https://user-images.githubusercontent.com/46064269/235352378-34e095f0-982f-4733-9bd7-e45bdd9f0c13.png)
+      ![image](https://user-images.githubusercontent.com/46064269/235352378-34e095f0-982f-4733-9bd7-e45bdd9f0c13.png)
 \
 7. To create a new project:
    - File -> New -> Project
@@ -63,17 +63,17 @@ BGI was less powerful than modern graphics libraries such as SDL or OpenGL, sinc
 10. Test program
 
 ```cpp
-#include<graphics.h>
+  #include<graphics.h>
 
-main(){
-  initwindow(800, 800);
-  //  creating line
-  //  line(200, 210, 400, 410);
+  main(){
+    initwindow(800, 800);
+    //  creating line
+    //  line(200, 210, 400, 410);
 
-  //  creating circle (x, y, radius)
-  circle(300, 300, 20);
-  getch();
-}
+    //  creating circle (x, y, radius)
+    circle(300, 300, 20);
+    getch();
+  }
 ```
 \
 [🔝](#index)
@@ -197,12 +197,12 @@ main(){
       -lole32
     ```
 \
-    ![image](https://user-images.githubusercontent.com/46064269/235363003-bcd87df8-36ab-44c2-99e2-f7ea1d21ed33.png)
+      ![image](https://user-images.githubusercontent.com/46064269/235363003-bcd87df8-36ab-44c2-99e2-f7ea1d21ed33.png)
 
 8.  Build the program: Click on Terminal -> Run Build Task or `Ctr + Shift + B`
 \
 \
-    ![image](https://user-images.githubusercontent.com/46064269/235363245-a585ae19-052c-43b8-a98e-5c68a41d4d2d.png)
+      ![image](https://user-images.githubusercontent.com/46064269/235363245-a585ae19-052c-43b8-a98e-5c68a41d4d2d.png)
 
     - You'll see the following success info.
 
