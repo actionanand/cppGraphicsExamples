@@ -23,4 +23,5 @@ Here is a C graphics program for bouncing ball animation using graphics.h header
 
 ## Output
 
+![bouncing_ball](https://user-images.githubusercontent.com/46064269/235741727-357dcd1a-ba36-4015-8247-147e1b77ad4a.gif)
 
