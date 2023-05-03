@@ -33,3 +33,7 @@ Here is a C program to draw a rectangle and a bar on screen using graphics.h hea
 ### Circle
 
 ![image](https://user-images.githubusercontent.com/46064269/235942456-a9c7a040-e112-42e7-8658-d6a541d1247b.png)
+
+## Rectangle & Solid Bar
+
+![image](https://user-images.githubusercontent.com/46064269/235945640-5583538a-3cb8-4a01-9220-a6ce8a6253ff.png)
