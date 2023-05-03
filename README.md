@@ -250,6 +250,7 @@ BGI was less powerful than modern graphics libraries such as SDL or OpenGL, sinc
 2. [Guide to setup BGI - github](https://github.com/rafiulgits/BGI-Projects)
 3. [Practical examples to BGI](https://github.com/SagarGaniga/computer-graphics)
 4. [Graphics (graphics.h) - C Programming tutorial site](https://developerinsider.co/graphics-graphics-h-c-programming/)
+5. [Graphics in C Language - My C Plus](https://www.mycplus.com/tutorials/c-programming-tutorials/graphics-programming/amp/)
 
 \
 [🔝](#index)
