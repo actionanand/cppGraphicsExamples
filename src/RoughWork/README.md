@@ -49,6 +49,21 @@ To draw a complete eclipse, we should pass start and end angle as 0 and 360 resp
 
 In this program we first initialize graphics mode, by passing graphics driver(DETECT), default graphics mode and specifies the directory path where initgraph looks for graphics drivers (*.BGI). First of all we will calculate the center co-ordinates of eclipse which is the center of screen bu calling getmaxx and getmaxy function. Then we draw full eclipse by calling ellipse function.
 
+## Concentric Circles
+
+Here is a C graphics program to draw concentric circle on screen using graphics.h header file. In this program, we will draw four circle on screen having centre at mid of the screen and radius 30, 50, 70 and 90 pixels. We will use outtextxy and circle functions of graphics.h header file. Below is the detailed descriptions of graphics functions used in this program.
+
+| **Function** | **Description**                                                                                                                                                                                          |
+|:------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| initgraph    | It initializes the graphics system by loading the passed graphics driver then changing the system into graphics mode.                                                                                     |
+| getmaxx      | It returns the maximum X coordinate in current graphics mode and driver.                                                                                                                                  |
+| getmaxy      | It returns the maximum Y coordinate in current graphics mode and driver.                                                                                                                                  |
+| outtextxy    | It displays a string at a particular point (x,y) on screen.                                                                                                                                               |
+| circle       | It draws a circle with radius r and centre at (x, y).                                                                                                                                                     |
+| setcolor     | It changes the current drawing colour. Default colour is white. Each color is assigned a number, like BLACK is 0 and RED is 4. Here we are using colour constants defined inside graphics.h header file.  |
+| closegraph   | It unloads the graphics drivers and sets the screen back to text mode.                                                                                                                                    |
+
+
 ## Output
 
 ### Circle
@@ -62,3 +77,5 @@ In this program we first initialize graphics mode, by passing graphics driver(DE
 ## Eclipse
 
 ![image](https://user-images.githubusercontent.com/46064269/235947542-e13292f8-99b8-4d9c-b2d1-39056bcc4149.png)
+
+## Concentric Circles
