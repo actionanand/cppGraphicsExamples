@@ -6,3 +6,4 @@ In this program, we first initialize graphics mode, by passing graphics driver(D
 
 ## Output
 
+![twinkling_night_star](https://user-images.githubusercontent.com/46064269/235843126-5f61890c-9f41-473c-926a-8c1048250b45.gif)
