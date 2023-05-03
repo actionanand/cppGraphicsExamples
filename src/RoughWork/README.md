@@ -28,6 +28,27 @@ Here is a C program to draw a rectangle and a bar on screen using graphics.h hea
   | yBottomRight          | Y coordinate of bottom right corner.  |
 
 
+## Eclipse
+
+Here is a C program to draw an eclipse on screen using graphics.h header file. In this program, we will draw an eclipse on screen having centre at mid of the screen. We will use ellipse functions of graphics.h header file to draw eclipse on screen. Below is the detailed descriptions of ellipse function.
+
+```cpp
+  void ellipse(int xCenter, int yCenter, int startAngle, int endAngle, int xRadius, int yRadius);
+```
+
+| **Function Argument** | **Description**                                                                             |
+|:---------------------:|:--------------------------------------------------------------------------------------------|
+| xCenter               | X coordinate of center of eclipse.                                                          |
+| yCenter               | Y coordinate of center of eclipse.                                                          |
+| startAngle            | Start angle of the eclipse arc.                                                             |
+| endAngle              | End angle of the eclipse arc. It will draw eclipse starting form startAngle till endAngle.  |
+| xRadius               | Horizontal radius of the eclipse.                                                           |
+| yRadius               | Vertical radius of the eclipse.                                                             |
+
+To draw a complete eclipse, we should pass start and end angle as 0 and 360 respectively.
+
+In this program we first initialize graphics mode, by passing graphics driver(DETECT), default graphics mode and specifies the directory path where initgraph looks for graphics drivers (*.BGI). First of all we will calculate the center co-ordinates of eclipse which is the center of screen bu calling getmaxx and getmaxy function. Then we draw full eclipse by calling ellipse function.
+
 ## Output
 
 ### Circle
@@ -37,3 +58,6 @@ Here is a C program to draw a rectangle and a bar on screen using graphics.h hea
 ## Rectangle & Solid Bar
 
 ![image](https://user-images.githubusercontent.com/46064269/235945640-5583538a-3cb8-4a01-9220-a6ce8a6253ff.png)
+
+## Eclipse
+
