@@ -79,3 +79,5 @@ Here is a C graphics program to draw concentric circle on screen using graphics.
 ![image](https://user-images.githubusercontent.com/46064269/235947542-e13292f8-99b8-4d9c-b2d1-39056bcc4149.png)
 
 ## Concentric Circles
+
+![image](https://user-images.githubusercontent.com/46064269/235949434-eaa67784-db66-4647-964a-04237902b28c.png)
