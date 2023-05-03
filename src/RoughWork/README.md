@@ -13,6 +13,20 @@ In this program we first initialize graphics mode, by passing graphics driver(DE
 | circle       | It draws a circle with radius r and centre at (x, y).                                                                  |
 | closegraph   | It unloads the graphics drivers and sets the screen back to text mode.                                                 |
 
+## Rectangle and Bar Using C Graphics
+
+Here is a C program to draw a rectangle and a bar on screen using graphics.h header file. In this program, we will draw a rectangle and a bar on screen. We will use rectangle and bar functions of graphics.h header file to draw rectangle and bar on screen. Below is the detailed descriptions if these two functions.
+
+  - `void rectangle(int xTopLeft, int yTopLeft, int xBottomRight, int yBottomRight);` draws a rectangle on screen. It takes the coordinates of top left and bottom right corners.
+  - `void bar(int xTopLeft, int yTopLeft, int xBottomRight, int yBottomRight);` draws a rectangle and fill it with current fill pattern and color.
+
+  | **Function Argument** | **Description**                       |
+  |:---------------------:|:--------------------------------------|
+  | xTopLeft              | X coordinate of top left corner.      |
+  | yTopLeft              | Y coordinate of top left corner.      |
+  | xBottomRight          | X coordinate of bottom right corner.  |
+  | yBottomRight          | Y coordinate of bottom right corner.  |
+
 
 ## Output
 

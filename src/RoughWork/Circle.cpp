@@ -14,6 +14,7 @@ int main()
   /* Draw circle on screen */
   circle(x, y, radius);
 
+  getch();
   closegraph();
   return 0;
 }
