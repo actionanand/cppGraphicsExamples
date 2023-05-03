@@ -10,3 +10,5 @@ Here is a C graphics program to make a digital counter using graphics.h header f
   Enter a Number
   5
 ```
+
+![digital_counter](https://user-images.githubusercontent.com/46064269/235934686-1170ce99-e4a9-4f76-9eff-f0f1b458e136.gif)
