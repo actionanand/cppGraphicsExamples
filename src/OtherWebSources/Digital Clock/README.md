@@ -8,9 +8,5 @@ We convert epoch time to string representing the localtime in "www mmm dd hh:mm:
 
 ## Output
 
-```bash
-  Enter a Number
-  5
-```
 
 ![digital_clock](https://user-images.githubusercontent.com/46064269/235937757-35b7523f-86f6-4b65-b933-3d252d056604.gif)
